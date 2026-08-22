@@ -16,7 +16,9 @@ function TechStack(){
                     <span className="text-[#6b1f35] text-sm tracking-widest">TECHNOLOGIES</span>
                 </div>
 
-                <h2 className="text-4xl font-bold text-[#1a1210] tracking-tight mb-12">Tech Stack</h2>
+                <h2 className="text-4xl font-bold text-[#1a1210] tracking-tight mb-2">Tech Stack</h2>
+                <p className="text-[#8c7b73] text-base mb-12">Tools and technologies I use to build full-stack web applications.</p>
+
 
                 <div className="grid grid-cols-4 gap-6">
                     <div className="bg-white border-2 border-[#e5ddd4] hover:border-[#d4c7b8] transition-colors rounded-lg p-6">
