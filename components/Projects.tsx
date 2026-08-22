@@ -15,7 +15,7 @@ function Projects() {
     const invoiceForgeLive = process.env.NEXT_PUBLIC_INVOICEFORGE_LIVE;
 
     return (
-        <section className="bg-[#faf7f2] border-t border-[#e5ddd4] px-10 py-20">
+        <section id="projects" className="bg-[#faf7f2] border-t border-[#e5ddd4] px-10 py-20">
             <div className="max-w-5xl mx-auto">
                 <div className="flex items-center gap-2 mb-6">
                     <span className="w-6 h-px bg-[#6b1f35]"></span>
