@@ -13,6 +13,7 @@ Personal portfolio site showcasing my projects, tech stack, and contact info —
 - Tech stack organized by category (Frontend, Backend, Database, Tools)
 - Contact section with GitHub, LinkedIn, and email links
 - All external links (social, project repos, live demos) are pulled from environment variables instead of being hardcoded in components
+- Responsive layout that adapts across mobile and larger screens
 
 ---
 
@@ -83,7 +84,6 @@ Open `http://localhost:3000` in your browser.
 
 ## 🔮 Future Improvements
 
-- [ ] Make the layout fully responsive across mobile/tablet breakpoints
 - [ ] Add screenshots/preview images to each project card
 - [ ] Add a downloadable CV/resume link
 - [ ] Add subtle scroll-triggered animations
