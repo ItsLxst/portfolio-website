@@ -15,7 +15,7 @@ function Projects() {
     const invoiceForgeLive = process.env.NEXT_PUBLIC_INVOICEFORGE_LIVE;
 
     return (
-        <section id="projects" className="bg-[#faf7f2] border-t border-[#e5ddd4] px-10 py-20">
+        <section id="projects" className="bg-[#faf7f2] border-t border-[#e5ddd4] px-6 md:px-10 py-12 md:py-20">
             <div className="max-w-5xl mx-auto">
                 <div className="flex items-center gap-2 mb-6">
                     <span className="w-6 h-px bg-[#6b1f35]"></span>
@@ -25,7 +25,7 @@ function Projects() {
                 <h2 className="text-4xl font-bold text-[#1a1210] tracking-tight mb-2">Projects</h2>
                 <p className="text-[#8c7b73] text-base mb-12">A selection of things I've built. Source code available on GitHub.</p>
 
-                <div className="grid grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-white border-2 border-[#e5ddd4] hover:border-[#d4c7b8] hover:-translate-y-1 hover:shadow-lg transition-all rounded-lg p-6">
                         <span className="block w-6 h-0.5 bg-[#6b1f35] mb-4"></span>
                         <h3 className="text-xl font-medium text-[#6b1f35] mb-3">SpendSync</h3>

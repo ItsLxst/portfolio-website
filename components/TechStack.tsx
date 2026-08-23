@@ -9,7 +9,7 @@ import {
 
 function TechStack(){
     return (
-        <section id="stack" className="bg-[#f3ede4] border-t border-[#e5ddd4] px-10 py-20">
+        <section id="stack" className="bg-[#f3ede4] border-t border-[#e5ddd4] px-6 md:px-10 py-12 md:py-20">
             <div className="max-w-5xl mx-auto">
                 <div className="flex items-center gap-2 mb-6">
                     <span className="w-6 h-px bg-[#6b1f35]"></span>
@@ -20,7 +20,7 @@ function TechStack(){
                 <p className="text-[#8c7b73] text-base mb-12">Tools and technologies I use to build full-stack web applications.</p>
 
 
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
                     <div className="bg-white border-2 border-[#e5ddd4] hover:border-[#d4c7b8] transition-colors rounded-lg p-6">
                         <h3 className="text-[#6b1f35] font-medium mb-4">Frontend</h3>
                         <div className="flex flex-col gap-3">

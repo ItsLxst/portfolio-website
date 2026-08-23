@@ -9,14 +9,14 @@ function Hero(){
 
 
     return (
-        <section className="bg-[#faf7f2] px-10 py-20">
+        <section className="bg-[#faf7f2] px-6 md:px-10 py-12 md:py-20">
             <div className="max-w-2xl mx-auto">
             <div className="flex items-center gap-2 mb-6">
                 <span className="w-6 h-px bg-[#6b1f35]"></span>
                 <span className="text-[#6b1f35] text-sm tracking-widest">PORTFOLIO</span>
             </div>
 
-            <h1 className="text-6xl font-bold text-[#1a1210] tracking-tight mb-4">Göknil Bilge</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-[#1a1210] tracking-tight mb-4">Göknil Bilge</h1>
             <p className="text-xl font-medium italic text-[#6b1f35] tracking-tight mb-6">Junior Full-Stack Software Engineer</p>
 
             <p className="text-[#3d2e28] text-lg max-w-xl mb-4">

@@ -7,7 +7,7 @@ function Contact(){
     const email = process.env.NEXT_PUBLIC_EMAIL;
 
     return (
-        <section id="contact" className="bg-[#f3ede4] border-t border-[#e5ddd4] px-10 py-20">
+        <section id="contact" className="bg-[#f3ede4] border-t border-[#e5ddd4] px-6 md:px-10 py-12 md:py-20">
             <div className="max-w-5xl mx-auto">
                 <div className="flex items-center gap-2 mb-6">
                     <span className="w-6 h-px bg-[#6b1f35]"></span>

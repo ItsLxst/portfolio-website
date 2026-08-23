@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className="sticky top-0 z-50 w-full flex justify-around items-center pt-5 pb-3 border-b border-gray-200 bg-[#faf7f2]">
+        <nav className="sticky top-0 z-50 w-full flex flex-wrap justify-around items-center gap-2 px-4 pt-5 pb-3 border-b border-gray-200 bg-[#faf7f2]">
             <Link
                 href="#"
                 onClick={(e) => {
@@ -16,7 +16,7 @@ export default function Navbar() {
                 Göknil Bilge
             </Link>
 
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-4 md:gap-8 text-sm md:text-base">
                 <Link href="#stack" className="text-stone-500 hover:text-black">
                     Stack
                 </Link>

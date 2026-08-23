@@ -7,8 +7,8 @@ function Footer(){
     const email = process.env.NEXT_PUBLIC_EMAIL;
 
     return (
-        <footer className="bg-[#f3ede4] border-t border-[#e5ddd4] px-10 py-8">
-            <div className="max-w-5xl mx-auto flex items-center justify-between">
+        <footer className="bg-[#f3ede4] border-t border-[#e5ddd4] px-6 md:px-10 py-8">
+            <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
                 <p className="text-[#8c7b73] text-sm">
                     © 2026 Göknil Bilge. Built with Next.js & Tailwind CSS.
                 </p>
