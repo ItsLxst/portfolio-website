@@ -54,7 +54,7 @@ function Projects() {
                         <span className="block w-6 h-0.5 bg-[#6b1f35] mb-4"></span>
                         <h3 className="text-xl font-medium text-[#6b1f35] mb-3">DevShelf</h3>
                         <p className="text-[#8c7b73] text-sm mb-4">
-                            A digital marketplace for developer assets with seamless Stripe checkout, cart management, and automated instant file delivery.
+                            A digital marketplace for developer assets with Stripe checkout, a working cart, and category filtering.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             <span className="bg-[#ede8e1] text-[#3d2e28] text-xs px-3 py-1.5 rounded-lg">Node.js</span>
@@ -78,7 +78,7 @@ function Projects() {
                         <span className="block w-6 h-0.5 bg-[#6b1f35] mb-4"></span>
                         <h3 className="text-xl font-medium text-[#6b1f35] mb-3">VoteFlow</h3>
                         <p className="text-[#8c7b73] text-sm mb-4">
-                            A public feedback and upvoting board built with optimistic UI for instant voting, status filtering, and relational data modeling.
+                            A public feedback and upvoting board built with Next.js Server Actions — upvoting, commenting, category filtering, and search.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             <span className="bg-[#ede8e1] text-[#3d2e28] text-xs px-3 py-1.5 rounded-lg">Next.js</span>
