@@ -38,7 +38,6 @@ function TechStack(){
                         <h3 className="text-[#6b1f35] font-medium mb-4">Backend</h3>
                         <div className="flex flex-col gap-3">
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiPython size={16} />Python</span>
-                            <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiFlask size={16} />Flask</span>
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiFastapi size={16} />FastAPI</span>
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiNodedotjs size={16} />Node.js</span>
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiExpress size={16} />Express.js</span>
@@ -50,7 +49,6 @@ function TechStack(){
                         <div className="flex flex-col gap-3">
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiPostgresql size={16} />PostgreSQL</span>
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><FiDatabase size={16} />SQL</span>
-                            <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiSqlite size={16} />SQLite</span>
                         </div>
                     </div>
 
