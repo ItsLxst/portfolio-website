@@ -2,8 +2,9 @@ import { FiDatabase } from "react-icons/fi";
 import { VscCode } from "react-icons/vsc";
 import {
     SiJavascript, SiTypescript, SiHtml5, SiCss, SiReact, SiNextdotjs, SiTailwindcss,
-    SiPython, SiFlask, SiFastapi, SiNodedotjs, SiExpress,
-    SiPostgresql, SiSqlite,
+    SiPython, SiFastapi, SiNodedotjs,
+    SiPostgresql,
+    SiVercel, SiRender,
     SiGit, SiGithub, SiPycharm, SiWebstorm, SiPostman
 } from "react-icons/si";
 
@@ -40,15 +41,16 @@ function TechStack(){
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiPython size={16} />Python</span>
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiFastapi size={16} />FastAPI</span>
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiNodedotjs size={16} />Node.js</span>
-                            <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiExpress size={16} />Express.js</span>
                         </div>
                     </div>
 
                     <div className="bg-white border-2 border-[#e5ddd4] hover:border-[#d4c7b8] transition-colors rounded-lg p-6">
-                        <h3 className="text-[#6b1f35] font-medium mb-4">Database</h3>
+                        <h3 className="text-[#6b1f35] font-medium mb-4">Database & Deployment</h3>
                         <div className="flex flex-col gap-3">
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiPostgresql size={16} />PostgreSQL</span>
                             <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><FiDatabase size={16} />SQL</span>
+                            <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiVercel size={16} />Vercel</span>
+                            <span className="flex items-center gap-2 text-[#3d2e28] text-sm"><SiRender size={16} />Render</span>
                         </div>
                     </div>
 
